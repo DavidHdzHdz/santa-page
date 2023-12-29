@@ -3,23 +3,12 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-black">
-      <div className="fixed flex place-items-center z-[2]">
+      <div className="relative flex place-items-center z-[2]">
         <Image
           className="relative dark"
-          src="/santa-logo.jpg"
+          src="/santa-logo.jpeg"
           alt="Next.js Logo"
           width={300}
-          height={50}
-          priority
-        />
-      </div>
-
-      <div className="relative flex place-items-center z-[1]">
-        <Image
-          className="relative dark"
-          src="/rose.gif"
-          alt="Next.js Logo"
-          width={350}
           height={50}
           priority
         />
