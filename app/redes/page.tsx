@@ -5,7 +5,7 @@ import { Fragment } from 'react';
 import Link from "next/link";
 import { Navbar } from "flowbite-react";
 
-export default function Santa() {
+export default function Redes() {
   return (
     <Fragment>
       <Navbar fluid rounded className='bg-black'>
@@ -15,9 +15,9 @@ export default function Santa() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link href="/santa" active>Música</Navbar.Link>
+          <Navbar.Link href="/santa">Música</Navbar.Link>
           <Navbar.Link href="/galeria">Galeria</Navbar.Link>
-          <Navbar.Link href="/redes">Redes Sociales</Navbar.Link>
+          <Navbar.Link href="/redes" active>Redes Sociales</Navbar.Link>
           <Navbar.Link href="/logo">Logo</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
@@ -35,13 +35,13 @@ export default function Santa() {
 
         <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
           <a
-            href="https://yt.openinapp.link/cuhph"
+            href="https://www.instagram.com/santa.muerete/"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={`mb-3 text-2xl font-semibold text-white`}>
-              Youtube{' '}
+              Instagram{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
@@ -49,13 +49,13 @@ export default function Santa() {
           </a>
 
           <a
-            href="https://spotify.openinapp.link/7rjsm"
+            href="https://www.tiktok.com/@santa.muerete?lang=en"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={`mb-3 text-2xl font-semibold text-white`}>
-              Spotify{' '}
+              TikTok{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
@@ -63,32 +63,19 @@ export default function Santa() {
           </a>
 
           <a
-            href="https://amzn.openinapp.link/i7ktu"
+            href="https://www.facebook.com/4322ro"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={`mb-3 text-2xl font-semibold text-white`}>
-              Amazon Music{' '}
+              Facebook{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
           </a>
-
-          <a
-            href="https://openinapp.link/e481j"
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={`mb-3 text-2xl font-semibold text-white`}>
-              Napster{' '}
-              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                -&gt;
-              </span>
-            </h2>
-          </a>
+          
         </div>
       </main>
     </Fragment>
